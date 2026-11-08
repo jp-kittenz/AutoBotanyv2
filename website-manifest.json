@@ -1,5 +1,5 @@
 {
-  "flashAssetBytes": 488666,
+  "flashAssetBytes": 518213,
   "files": [
     {
       "symbol": "GardenCSS",
@@ -32,8 +32,8 @@
         "/index.html"
       ],
       "gzip": true,
-      "bytes": 1823,
-      "sha256": "2c5b13acc648eb3f82bd25783875a9c583f879ee313a80fd2138e5c87bf58aae"
+      "bytes": 1855,
+      "sha256": "b54ffdc6b3eeb3ff30fd6f42bf8a5329457bd93ed8685591819ff159c65f6763"
     },
     {
       "symbol": "Credits",
@@ -101,6 +101,28 @@
       "gzip": false,
       "bytes": 41890,
       "sha256": "14f78d8074fc21802870334a2f6023507063ee28c1c06cec83a95ace7b9b2fe2"
+    },
+    {
+      "symbol": "GSAP",
+      "source": "assets/vendor/gsap-3.15.0/gsap.min.js",
+      "mime": "application/javascript; charset=utf-8",
+      "routes": [
+        "/assets/vendor/gsap-3.15.0/gsap.min.js"
+      ],
+      "gzip": true,
+      "bytes": 28302,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "symbol": "EntranceMotionJS",
+      "source": "assets/v3.6.0/entrance-motion.js",
+      "mime": "application/javascript; charset=utf-8",
+      "routes": [
+        "/assets/v3.6.0/entrance-motion.js"
+      ],
+      "gzip": true,
+      "bytes": 1213,
+      "sha256": "5d261c3b83bcea217963323c88b8ec823f58d198585771a1fc52a7b557e45f5d"
     }
   ]
 }

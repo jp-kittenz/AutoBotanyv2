@@ -12,7 +12,9 @@ const Asset Assets[] = {
 {"/assets/v3.1.0/motion.js","application/javascript; charset=utf-8",MotionJS,sizeof(MotionJS),true,true},
 {"/assets/v3.6.0/autobotany.png","image/png",Logo,sizeof(Logo),false,true},
 {"/assets/v3.1.0/colegio.jpg","image/jpeg",School,sizeof(School),false,true},
-{"/assets/v3.1.0/archdiocese.png","image/png",Archdiocese,sizeof(Archdiocese),false,true}
+{"/assets/v3.1.0/archdiocese.png","image/png",Archdiocese,sizeof(Archdiocese),false,true},
+{"/assets/vendor/gsap-3.15.0/gsap.min.js","application/javascript; charset=utf-8",GSAP,sizeof(GSAP),true,true},
+{"/assets/v3.6.0/entrance-motion.js","application/javascript; charset=utf-8",EntranceMotionJS,sizeof(EntranceMotionJS),true,true}
 };
 const size_t Count=sizeof(Assets)/sizeof(Assets[0]);
 }
