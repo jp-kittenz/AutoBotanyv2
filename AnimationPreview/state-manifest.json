@@ -1,0 +1,640 @@
+{
+  "version": "3.5.0",
+  "states": 88,
+  "selectStates": 45,
+  "pages": [
+    "Reservoir",
+    "Soil moisture",
+    "Rain gauge",
+    "Temperature",
+    "Humidity",
+    "Sunlight",
+    "Cooling fan",
+    "Heat index",
+    "Sun blocker",
+    "Rain blocker",
+    "Water pump",
+    "Chip temperature",
+    "Website & SoftAP"
+  ],
+  "items": [
+    {
+      "id": "state-000",
+      "page": 0,
+      "title": "Water drops / 4 drops",
+      "trigger": "Reservoir 70 percent",
+      "key": "0:0:0:4:0:0:0"
+    },
+    {
+      "id": "state-001",
+      "page": 0,
+      "title": "Water drops / 2 drops",
+      "trigger": "Reservoir 40 percent",
+      "key": "0:0:0:2:0:0:0"
+    },
+    {
+      "id": "state-002",
+      "page": 0,
+      "title": "Water drops / 1 drops",
+      "trigger": "Reservoir 20 percent",
+      "key": "0:0:0:1:0:0:0"
+    },
+    {
+      "id": "state-003",
+      "page": 0,
+      "title": "Empty reservoir",
+      "trigger": "Reservoir 0 percent",
+      "key": "0:1:0:1:0:0:0"
+    },
+    {
+      "id": "state-004",
+      "page": 0,
+      "title": "Reservoir unknown",
+      "trigger": "Missing, stale or uncalibrated reservoir",
+      "key": "0:2:0:1:0:0:0"
+    },
+    {
+      "id": "state-005",
+      "page": 1,
+      "title": "Healthy flower",
+      "trigger": "Soil 70 percent; artwork uses fixed illustrative bands",
+      "key": "1:3:0:1:0:0:0"
+    },
+    {
+      "id": "state-006",
+      "page": 1,
+      "title": "Wilting flower",
+      "trigger": "Soil 40 percent; artwork uses fixed illustrative bands",
+      "key": "1:4:0:1:0:0:0"
+    },
+    {
+      "id": "state-007",
+      "page": 1,
+      "title": "Falling petals",
+      "trigger": "Soil 20 percent; artwork uses fixed illustrative bands",
+      "key": "1:5:0:1:0:0:0"
+    },
+    {
+      "id": "state-008",
+      "page": 1,
+      "title": "Dry flower",
+      "trigger": "Soil 0 percent; artwork uses fixed illustrative bands",
+      "key": "1:6:0:1:0:0:0"
+    },
+    {
+      "id": "state-009",
+      "page": 1,
+      "title": "Soil unknown",
+      "trigger": "Missing, stale or uncalibrated soil",
+      "key": "1:7:0:1:0:0:0"
+    },
+    {
+      "id": "state-010",
+      "page": 2,
+      "title": "Weather / cloud",
+      "trigger": "Fresh dry plate",
+      "key": "2:8:2:1:0:0:0"
+    },
+    {
+      "id": "state-011",
+      "page": 2,
+      "title": "Weather / rain",
+      "trigger": "Fresh rain detected",
+      "key": "2:8:4:1:0:0:0"
+    },
+    {
+      "id": "state-012",
+      "page": 2,
+      "title": "Weather / cloud",
+      "trigger": "Rain reading missing, stale or uncalibrated",
+      "key": "2:8:2:1:0:1:0"
+    },
+    {
+      "id": "state-013",
+      "page": 3,
+      "title": "Cold snow",
+      "trigger": "Ambient temperature 5 C",
+      "key": "3:14:0:1:0:0:0"
+    },
+    {
+      "id": "state-014",
+      "page": 3,
+      "title": "Cool breeze",
+      "trigger": "Ambient temperature 18 C",
+      "key": "3:13:0:1:0:0:0"
+    },
+    {
+      "id": "state-015",
+      "page": 3,
+      "title": "Warm sun",
+      "trigger": "Ambient temperature 28 C",
+      "key": "3:11:0:1:0:0:0"
+    },
+    {
+      "id": "state-016",
+      "page": 3,
+      "title": "Hot shimmer",
+      "trigger": "Ambient temperature 36 C",
+      "key": "3:12:0:1:0:0:0"
+    },
+    {
+      "id": "state-017",
+      "page": 3,
+      "title": "Temperature unknown",
+      "trigger": "Ambient temperature missing or stale",
+      "key": "3:15:0:1:0:0:0"
+    },
+    {
+      "id": "state-018",
+      "page": 4,
+      "title": "Dry air",
+      "trigger": "Air humidity 20 percent",
+      "key": "4:18:0:1:0:0:0"
+    },
+    {
+      "id": "state-019",
+      "page": 4,
+      "title": "Humidity bubbles",
+      "trigger": "Air humidity 55 percent",
+      "key": "4:16:0:1:0:0:0"
+    },
+    {
+      "id": "state-020",
+      "page": 4,
+      "title": "Humid dew",
+      "trigger": "Air humidity 85 percent",
+      "key": "4:17:0:1:0:0:0"
+    },
+    {
+      "id": "state-021",
+      "page": 4,
+      "title": "Humidity unknown",
+      "trigger": "Humidity missing or stale",
+      "key": "4:19:0:1:0:0:0"
+    },
+    {
+      "id": "state-022",
+      "page": 5,
+      "title": "Dim-light bulb",
+      "trigger": "Day, dry, 0 lux",
+      "key": "5:9:0:1:0:0:0"
+    },
+    {
+      "id": "state-023",
+      "page": 5,
+      "title": "Weather / cloud",
+      "trigger": "Day, dry, 500 lux",
+      "key": "5:8:2:1:0:0:0"
+    },
+    {
+      "id": "state-024",
+      "page": 5,
+      "title": "Weather / sun and cloud",
+      "trigger": "Day, dry, 5000 lux",
+      "key": "5:8:1:1:0:0:0"
+    },
+    {
+      "id": "state-025",
+      "page": 5,
+      "title": "Weather / sun",
+      "trigger": "Day, dry, 20000 lux",
+      "key": "5:8:0:1:0:0:0"
+    },
+    {
+      "id": "state-026",
+      "page": 5,
+      "title": "Light sensor unavailable",
+      "trigger": "Day, dry, light unavailable",
+      "key": "5:10:0:1:0:0:0"
+    },
+    {
+      "id": "state-027",
+      "page": 5,
+      "title": "Weather / sun and rain",
+      "trigger": "Day, fresh rain, 0 lux",
+      "key": "5:8:6:1:0:0:0"
+    },
+    {
+      "id": "state-028",
+      "page": 5,
+      "title": "Weather / moon",
+      "trigger": "Night, dry, 0 lux",
+      "key": "5:8:3:1:0:0:0"
+    },
+    {
+      "id": "state-029",
+      "page": 5,
+      "title": "Weather / moon and rain",
+      "trigger": "Night, fresh rain, 0 lux",
+      "key": "5:8:5:1:0:0:0"
+    },
+    {
+      "id": "state-030",
+      "page": 8,
+      "title": "Weather / cloud / open",
+      "trigger": "Day, dry, 0 lux, cover open",
+      "key": "8:8:2:1:0:0:0"
+    },
+    {
+      "id": "state-031",
+      "page": 8,
+      "title": "Weather / sun and cloud / open",
+      "trigger": "Day, dry, 5000 lux, cover open",
+      "key": "8:8:1:1:0:0:0"
+    },
+    {
+      "id": "state-032",
+      "page": 8,
+      "title": "Weather / sun / open",
+      "trigger": "Day, dry, 20000 lux, cover open",
+      "key": "8:8:0:1:0:0:0"
+    },
+    {
+      "id": "state-033",
+      "page": 8,
+      "title": "Weather / unknown weather / open",
+      "trigger": "Day, dry, light unavailable, cover open",
+      "key": "8:8:7:1:0:1:0"
+    },
+    {
+      "id": "state-034",
+      "page": 8,
+      "title": "Weather / rain / open",
+      "trigger": "Day, fresh rain, 0 lux, cover open",
+      "key": "8:8:4:1:0:0:0"
+    },
+    {
+      "id": "state-035",
+      "page": 8,
+      "title": "Weather / moon / open",
+      "trigger": "Night, dry, 0 lux, cover open",
+      "key": "8:8:3:1:0:0:0"
+    },
+    {
+      "id": "state-036",
+      "page": 8,
+      "title": "Weather / moon and rain / open",
+      "trigger": "Night, fresh rain, 0 lux, cover open",
+      "key": "8:8:5:1:0:0:0"
+    },
+    {
+      "id": "state-037",
+      "page": 8,
+      "title": "Weather / cloud / closed",
+      "trigger": "Day, dry, 0 lux, cover closed",
+      "key": "8:8:2:1:1:0:0"
+    },
+    {
+      "id": "state-038",
+      "page": 8,
+      "title": "Weather / sun and cloud / closed",
+      "trigger": "Day, dry, 5000 lux, cover closed",
+      "key": "8:8:1:1:1:0:0"
+    },
+    {
+      "id": "state-039",
+      "page": 8,
+      "title": "Weather / sun / closed",
+      "trigger": "Day, dry, 20000 lux, cover closed",
+      "key": "8:8:0:1:1:0:0"
+    },
+    {
+      "id": "state-040",
+      "page": 8,
+      "title": "Weather / unknown weather / closed",
+      "trigger": "Day, dry, light unavailable, cover closed",
+      "key": "8:8:7:1:1:1:0"
+    },
+    {
+      "id": "state-041",
+      "page": 8,
+      "title": "Weather / rain / closed",
+      "trigger": "Day, fresh rain, 0 lux, cover closed",
+      "key": "8:8:4:1:1:0:0"
+    },
+    {
+      "id": "state-042",
+      "page": 8,
+      "title": "Weather / moon / closed",
+      "trigger": "Night, dry, 0 lux, cover closed",
+      "key": "8:8:3:1:1:0:0"
+    },
+    {
+      "id": "state-043",
+      "page": 8,
+      "title": "Weather / moon and rain / closed",
+      "trigger": "Night, fresh rain, 0 lux, cover closed",
+      "key": "8:8:5:1:1:0:0"
+    },
+    {
+      "id": "state-044",
+      "page": 9,
+      "title": "Weather / cloud / open",
+      "trigger": "Day, dry, 0 lux, cover open",
+      "key": "9:8:2:1:0:0:0"
+    },
+    {
+      "id": "state-045",
+      "page": 9,
+      "title": "Weather / sun and cloud / open",
+      "trigger": "Day, dry, 5000 lux, cover open",
+      "key": "9:8:1:1:0:0:0"
+    },
+    {
+      "id": "state-046",
+      "page": 9,
+      "title": "Weather / sun / open",
+      "trigger": "Day, dry, 20000 lux, cover open",
+      "key": "9:8:0:1:0:0:0"
+    },
+    {
+      "id": "state-047",
+      "page": 9,
+      "title": "Weather / unknown weather / open",
+      "trigger": "Day, dry, light unavailable, cover open",
+      "key": "9:8:7:1:0:1:0"
+    },
+    {
+      "id": "state-048",
+      "page": 9,
+      "title": "Weather / rain / open",
+      "trigger": "Day, fresh rain, 0 lux, cover open",
+      "key": "9:8:4:1:0:0:0"
+    },
+    {
+      "id": "state-049",
+      "page": 9,
+      "title": "Weather / moon / open",
+      "trigger": "Night, dry, 0 lux, cover open",
+      "key": "9:8:3:1:0:0:0"
+    },
+    {
+      "id": "state-050",
+      "page": 9,
+      "title": "Weather / moon and rain / open",
+      "trigger": "Night, fresh rain, 0 lux, cover open",
+      "key": "9:8:5:1:0:0:0"
+    },
+    {
+      "id": "state-051",
+      "page": 9,
+      "title": "Dry rain shelter / closed",
+      "trigger": "Day, dry, 0 lux, cover closed",
+      "key": "9:25:0:1:1:0:0"
+    },
+    {
+      "id": "state-052",
+      "page": 9,
+      "title": "Weather / rain / closed",
+      "trigger": "Day, fresh rain, 0 lux, cover closed",
+      "key": "9:8:4:1:1:0:0"
+    },
+    {
+      "id": "state-053",
+      "page": 9,
+      "title": "Weather / moon and rain / closed",
+      "trigger": "Night, fresh rain, 0 lux, cover closed",
+      "key": "9:8:5:1:1:0:0"
+    },
+    {
+      "id": "state-054",
+      "page": 8,
+      "title": "Unknown / open",
+      "trigger": "Cover position not yet commanded / unknown",
+      "key": "8:39:0:1:0:0:0"
+    },
+    {
+      "id": "state-055",
+      "page": 9,
+      "title": "Unknown / open",
+      "trigger": "Cover position not yet commanded / unknown",
+      "key": "9:39:0:1:0:0:0"
+    },
+    {
+      "id": "state-056",
+      "page": 6,
+      "title": "Fan stopped",
+      "trigger": "Fan commanded off",
+      "key": "6:32:0:1:0:0:0"
+    },
+    {
+      "id": "state-057",
+      "page": 6,
+      "title": "Fan spinning",
+      "trigger": "Fan commanded on (not RPM feedback)",
+      "key": "6:31:0:1:0:0:0"
+    },
+    {
+      "id": "state-058",
+      "page": 7,
+      "title": "Freezing face",
+      "trigger": "Heat index -2 C",
+      "key": "7:24:0:1:0:0:0"
+    },
+    {
+      "id": "state-059",
+      "page": 7,
+      "title": "Cool face",
+      "trigger": "Heat index 10 C",
+      "key": "7:23:0:1:0:0:0"
+    },
+    {
+      "id": "state-060",
+      "page": 7,
+      "title": "Comfortable face",
+      "trigger": "Heat index 25 C",
+      "key": "7:22:0:1:0:0:0"
+    },
+    {
+      "id": "state-061",
+      "page": 7,
+      "title": "Warm face",
+      "trigger": "Heat index 30 C",
+      "key": "7:21:0:1:0:0:0"
+    },
+    {
+      "id": "state-062",
+      "page": 7,
+      "title": "Overheated face",
+      "trigger": "Heat index 40 C",
+      "key": "7:20:0:1:0:0:0"
+    },
+    {
+      "id": "state-063",
+      "page": 7,
+      "title": "Unknown",
+      "trigger": "Heat index unavailable",
+      "key": "7:39:0:1:0:0:0"
+    },
+    {
+      "id": "state-064",
+      "page": 10,
+      "title": "Pump empty",
+      "trigger": "Pump off, 0 percent water",
+      "key": "10:29:0:1:0:0:0"
+    },
+    {
+      "id": "state-065",
+      "page": 10,
+      "title": "Pump idle",
+      "trigger": "Pump off, 10 percent water",
+      "key": "10:28:0:1:0:0:0"
+    },
+    {
+      "id": "state-066",
+      "page": 10,
+      "title": "Pump unknown",
+      "trigger": "Pump off, reservoir unavailable",
+      "key": "10:30:0:1:0:0:0"
+    },
+    {
+      "id": "state-067",
+      "page": 10,
+      "title": "Pump low water",
+      "trigger": "Pump on, 10 percent water",
+      "key": "10:27:0:1:0:0:0"
+    },
+    {
+      "id": "state-068",
+      "page": 10,
+      "title": "Pump flow",
+      "trigger": "Pump on, 70 percent water",
+      "key": "10:26:0:1:0:0:0"
+    },
+    {
+      "id": "state-069",
+      "page": 11,
+      "title": "Chip cold",
+      "trigger": "Chip 5 C, fan off",
+      "key": "11:36:0:1:0:0:0"
+    },
+    {
+      "id": "state-070",
+      "page": 11,
+      "title": "Chip normal",
+      "trigger": "Chip 40 C, fan off",
+      "key": "11:34:0:1:0:0:0"
+    },
+    {
+      "id": "state-071",
+      "page": 11,
+      "title": "Chip hot",
+      "trigger": "Chip 65 C, fan off",
+      "key": "11:33:0:1:0:0:0"
+    },
+    {
+      "id": "state-072",
+      "page": 11,
+      "title": "Unknown",
+      "trigger": "Chip temperature unavailable, fan off",
+      "key": "11:39:0:1:0:0:0"
+    },
+    {
+      "id": "state-073",
+      "page": 11,
+      "title": "Chip cooling",
+      "trigger": "Chip 65 C, fan on",
+      "key": "11:35:0:1:0:0:0"
+    },
+    {
+      "id": "state-074",
+      "page": 12,
+      "title": "Wi-Fi offline / 0 users",
+      "trigger": "AP stopped, no fresh camera, 0 total stations",
+      "key": "12:38:0:0:0:0:0"
+    },
+    {
+      "id": "state-075",
+      "page": 12,
+      "title": "Wi-Fi running / 0 users",
+      "trigger": "AP running, no fresh camera, 0 total stations",
+      "key": "12:37:0:0:0:0:0"
+    },
+    {
+      "id": "state-076",
+      "page": 12,
+      "title": "Wi-Fi running / 1 users",
+      "trigger": "AP running, no fresh camera, 1 total stations",
+      "key": "12:37:0:1:0:0:0"
+    },
+    {
+      "id": "state-077",
+      "page": 12,
+      "title": "Wi-Fi running / 2 users",
+      "trigger": "AP running, no fresh camera, 2 total stations",
+      "key": "12:37:0:2:0:0:0"
+    },
+    {
+      "id": "state-078",
+      "page": 12,
+      "title": "Wi-Fi running / 3 users",
+      "trigger": "AP running, no fresh camera, 3 total stations",
+      "key": "12:37:0:3:0:0:0"
+    },
+    {
+      "id": "state-079",
+      "page": 12,
+      "title": "Wi-Fi running / 4 users",
+      "trigger": "AP running, no fresh camera, 4 total stations",
+      "key": "12:37:0:4:0:0:0"
+    },
+    {
+      "id": "state-080",
+      "page": 12,
+      "title": "Wi-Fi running / 5 users",
+      "trigger": "AP running, no fresh camera, 5 total stations",
+      "key": "12:37:0:5:0:0:0"
+    },
+    {
+      "id": "state-081",
+      "page": 12,
+      "title": "Wi-Fi running / 6 users",
+      "trigger": "AP running, no fresh camera, 6 total stations",
+      "key": "12:37:0:6:0:0:0"
+    },
+    {
+      "id": "state-082",
+      "page": 12,
+      "title": "Wi-Fi running / 0 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 1 total stations",
+      "key": "12:37:0:0:0:0:1"
+    },
+    {
+      "id": "state-083",
+      "page": 12,
+      "title": "Wi-Fi running / 1 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 2 total stations",
+      "key": "12:37:0:1:0:0:1"
+    },
+    {
+      "id": "state-084",
+      "page": 12,
+      "title": "Wi-Fi running / 2 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 3 total stations",
+      "key": "12:37:0:2:0:0:1"
+    },
+    {
+      "id": "state-085",
+      "page": 12,
+      "title": "Wi-Fi running / 3 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 4 total stations",
+      "key": "12:37:0:3:0:0:1"
+    },
+    {
+      "id": "state-086",
+      "page": 12,
+      "title": "Wi-Fi running / 4 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 5 total stations",
+      "key": "12:37:0:4:0:0:1"
+    },
+    {
+      "id": "state-087",
+      "page": 12,
+      "title": "Wi-Fi running / 5 users + camera",
+      "trigger": "AP running, camera heartbeat fresh, 6 total stations",
+      "key": "12:37:0:5:0:0:1"
+    }
+  ],
+  "renderedFrom": "AutobotanyVisualRules.cpp + delivered TFT renderer and display controller",
+  "limits": "Software rasterizer; actual TFT colour and timing depend on hardware. Flow/fan images indicate commands; client illustrations indicate counts, not actual device types or Internet access."
+}

@@ -1,0 +1,106 @@
+{
+  "flashAssetBytes": 488666,
+  "files": [
+    {
+      "symbol": "GardenCSS",
+      "source": "assets/v3.6.0/garden.css",
+      "mime": "text/css; charset=utf-8",
+      "routes": [
+        "/assets/v3.6.0/garden.css"
+      ],
+      "gzip": true,
+      "bytes": 1139,
+      "sha256": "d2e2bb1c37dd8fd35fc6f76e84df98a9b6ee351bba598893456226718940d556"
+    },
+    {
+      "symbol": "GardenJS",
+      "source": "assets/v3.6.0/garden.js",
+      "mime": "application/javascript; charset=utf-8",
+      "routes": [
+        "/assets/v3.6.0/garden.js"
+      ],
+      "gzip": true,
+      "bytes": 8024,
+      "sha256": "d92bcc42c050967550cd91e09cdb0261e1b2fbf6eb3d72ce98bd715edce14110"
+    },
+    {
+      "symbol": "Entrance",
+      "source": "index.html",
+      "mime": "text/html; charset=utf-8",
+      "routes": [
+        "/",
+        "/index.html"
+      ],
+      "gzip": true,
+      "bytes": 1823,
+      "sha256": "2c5b13acc648eb3f82bd25783875a9c583f879ee313a80fd2138e5c87bf58aae"
+    },
+    {
+      "symbol": "Credits",
+      "source": "credits.html",
+      "mime": "text/html; charset=utf-8",
+      "routes": [
+        "/credits",
+        "/credits.html"
+      ],
+      "gzip": true,
+      "bytes": 2726,
+      "sha256": "1ae959ce01cb30f0635991460ab4c85af5cba0479363274a3f91a3628dbf597a"
+    },
+    {
+      "symbol": "StoryCSS",
+      "source": "assets/v3.1.0/story.css",
+      "mime": "text/css; charset=utf-8",
+      "routes": [
+        "/assets/v3.1.0/story.css"
+      ],
+      "gzip": true,
+      "bytes": 6226,
+      "sha256": "00912772e2d73f72ff3c1f71f8d0f73f24c609f08ca8c2cb7714e6b1b02f0a14"
+    },
+    {
+      "symbol": "MotionJS",
+      "source": "assets/v3.1.0/motion.js",
+      "mime": "application/javascript; charset=utf-8",
+      "routes": [
+        "/assets/v3.1.0/motion.js"
+      ],
+      "gzip": true,
+      "bytes": 2627,
+      "sha256": "8e2aa909681f6b0fe52948abfce6e3c0b788b4c0c7263a9598c50bb5fbd2dee7"
+    },
+    {
+      "symbol": "Logo",
+      "source": "assets/v3.6.0/autobotany.png",
+      "mime": "image/png",
+      "routes": [
+        "/assets/v3.6.0/autobotany.png"
+      ],
+      "gzip": false,
+      "bytes": 96305,
+      "sha256": "15ada0b5ae677c45efb66873e602b909c9e5ffff264d340816f3bd9c54a23268"
+    },
+    {
+      "symbol": "School",
+      "source": "assets/v3.1.0/colegio.jpg",
+      "mime": "image/jpeg",
+      "routes": [
+        "/assets/v3.1.0/colegio.jpg"
+      ],
+      "gzip": false,
+      "bytes": 327906,
+      "sha256": "7cbb765c1442b616ca9be36862430f6bd5fa5a99d71db3c7ba3091dc5b8e0d51"
+    },
+    {
+      "symbol": "Archdiocese",
+      "source": "assets/v3.1.0/archdiocese.png",
+      "mime": "image/png",
+      "routes": [
+        "/assets/v3.1.0/archdiocese.png"
+      ],
+      "gzip": false,
+      "bytes": 41890,
+      "sha256": "14f78d8074fc21802870334a2f6023507063ee28c1c06cec83a95ace7b9b2fe2"
+    }
+  ]
+}

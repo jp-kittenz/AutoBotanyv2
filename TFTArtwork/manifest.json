@@ -1,0 +1,25 @@
+[
+  {
+    "symbol": "Logo",
+    "source": "autobotany-original.png",
+    "sourceSha256": "7e87a49fae90bb2aaaf123c839a42ac9f68dd362edf99bbf22516f97d65e9157",
+    "crop": [
+      128,
+      460,
+      1334,
+      1094
+    ],
+    "width": 118,
+    "height": 62,
+    "bytes": 14632
+  },
+  {
+    "symbol": "School",
+    "source": "csfj-transparent.png",
+    "sourceSha256": "ce3d037ba897ce1e9a0a2afb77d59c687a77317c65567eac0fc38dbdce23a274",
+    "crop": null,
+    "width": 52,
+    "height": 52,
+    "bytes": 5408
+  }
+]

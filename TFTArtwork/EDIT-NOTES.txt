@@ -1,0 +1,9 @@
+CSFJ transparent TFT artwork
+
+The original CSFJ JPEG is retained as csfj-original.jpg.
+csfj-transparent.png is a transparent-background edit of that image, removing only the exterior white area while retaining white areas inside the circular seal. A generative image edit was used; the result is not a byte-identical masked copy of the original image.
+
+Edit mode: referenced-image edit, transparent background enabled.
+Edit instructions: Remove the exterior white background around the CSFJ circular school seal. Preserve the seal, lettering, crest, colors, and white details inside the seal. Return a transparent PNG. Do not alter the AutoBotany logo.
+
+The TFT conversion precomposites CSFJ transparency against its dark introduction background before RGB565 encoding. AutoBotany retains the previous white-background bitmap exactly. Website logos are unchanged.

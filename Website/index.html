@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-page="entrance">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f8f0">
+<meta name="description" content="Autobotany. A Science Investigatory Project by Grade 11 - Holy Trinity, Colegio De San Francisco Javier.">
+<title>Welcome to Autobotany</title>
+<link rel="stylesheet" href="/assets/v3.1.0/story.css">
+<script src="/assets/v3.1.0/motion.js" defer></script>
+</head>
+<body class="entrance-page">
+<a class="skip-link" href="#menu">Skip to menu</a>
+<header class="masthead">
+  <a class="wordmark" href="/" aria-label="Autobotany home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V14M16 21C5 22 3 12 4 8c9 0 14 4 12 13ZM16 16C14 6 21 2 28 2c1 9-3 15-12 14Z"/></svg><span>AUTOBOTANY</span></a>
+  <span class="masthead-note">SCIENCE, TAKING ROOT.</span>
+  <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false" hidden><span class="motion-bars" aria-hidden="true"><i></i><i></i><i></i></span>Motion <span id="motion-label">off</span></button>
+</header>
+<main class="entrance" id="main">
+  <section class="welcome" aria-labelledby="welcome-title">
+    <p class="eyebrow"><span class="tiny-dot"></span> A SMALL IDEA. A LIVING POSSIBILITY.</p>
+    <div class="botanical-stage" id="botanical-stage">
+      <div class="orbit orbit-one" aria-hidden="true"><span></span></div>
+      <div class="orbit orbit-two" aria-hidden="true"><span></span></div>
+      <div class="stage-grid" aria-hidden="true"></div>
+      <span class="coordinate top-left" aria-hidden="true">01 / GROW</span>
+      <span class="coordinate bottom-right" aria-hidden="true">NATURE × TECHNOLOGY</span>
+      <div class="brand-art stage-art"><img id="hero-logo" src="/assets/v3.6.0/autobotany.png" width="1414" height="2000" alt="Autobotany. A Science Investigatory Project by Grade 11." fetchpriority="high"><span class="art-fallback" hidden>Auto<span>Botany</span></span></div>
+      <svg class="stage-sprout" viewBox="0 0 160 200" fill="none" aria-hidden="true"><path d="M80 194V60M80 132C8 140 9 59 12 52c47 1 71 26 68 80ZM80 90C78 32 113 11 150 6c6 52-13 82-70 84Z"/><path d="M12 52 80 132M150 6 80 90"/></svg>
+    </div>
+    <div class="welcome-caption"><h1 id="welcome-title">A little science.<br><em>A greener tomorrow.</em></h1><p>Curiosity planted.<br>Possibility growing.</p></div>
+  </section>
+  <nav class="main-menu" id="menu" aria-labelledby="menu-title">
+    <div class="menu-heading"><p class="eyebrow">WELCOME TO OUR PROJECT</p><h2 id="menu-title">Choose your path.</h2></div>
+    <a class="menu-link featured" href="/dashboard"><span class="menu-number">01</span><span class="menu-copy"><strong>The garden</strong><small>Open the live dashboard</small></span><span class="round-arrow" aria-hidden="true">↗</span></a>
+    <a class="menu-link" href="/dashboard#camera"><span class="menu-number">02</span><span class="menu-copy"><strong>A closer look</strong><small>Visit the camera view</small></span><span class="round-arrow" aria-hidden="true">↗</span></a>
+    <a class="menu-link" href="/credits"><span class="menu-number">03</span><span class="menu-copy"><strong>The people</strong><small>Meet the minds behind Autobotany</small></span><span class="round-arrow" aria-hidden="true">↗</span></a>
+    <a class="settings-link" href="/dashboard#settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16M8 4v6M16 14v6"/></svg>Settings &amp; calibration<span aria-hidden="true">→</span></a>
+    <p class="menu-footnote">Made with curiosity.<br>By Grade 11 - Holy Trinity.</p>
+  </nav>
+</main>
+<footer class="entrance-footer"><span>COLEGIO DE SAN FRANCISCO JAVIER</span><button id="replay-intro" class="text-button" type="button" hidden>Replay introduction <span aria-hidden="true">↻</span></button><span class="edition">AUTOBOTANY / 3.1</span></footer>
+<dialog class="intro-loader" id="intro-loader" aria-labelledby="loader-title" aria-describedby="loader-status">
+  <div class="loader-top"><span class="eyebrow">AUTOBOTANY</span><button class="text-button" id="skip-intro" type="button" autofocus>Skip intro <span aria-hidden="true">↗</span></button></div>
+  <div class="loader-center"><div class="loader-orbit" aria-hidden="true"></div><div class="brand-art loader-art"><img src="/assets/v3.6.0/autobotany.png" width="1414" height="2000" alt="Autobotany"><span class="art-fallback" hidden>Auto<span>Botany</span></span></div><h2 id="loader-title">An idea, <em>taking root.</em></h2><p id="loader-status" role="status">Preparing the artwork</p><div class="loader-track" aria-hidden="true"><span id="loader-bar"></span></div></div>
+  <span class="loader-bottom eyebrow">GRADE 11 - HOLY TRINITY</span>
+</dialog>
+</body>
+</html>
