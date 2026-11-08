@@ -12,6 +12,7 @@ extern const uint8_t MotionJS[2627] PROGMEM;
 extern const uint8_t Logo[96305] PROGMEM;
 extern const uint8_t School[327906] PROGMEM;
 extern const uint8_t Archdiocese[41890] PROGMEM;
-extern const Asset Assets[11];
+extern const uint8_t GSAP[28302] PROGMEM;
+extern const Asset Assets[12];
 extern const size_t Count;
 }

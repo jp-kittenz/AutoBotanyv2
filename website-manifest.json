@@ -1,5 +1,5 @@
 {
-  "flashAssetBytes": 488666,
+  "flashAssetBytes": 516968,
   "files": [
     {
       "symbol": "GardenCSS",
@@ -101,6 +101,17 @@
       "gzip": false,
       "bytes": 41890,
       "sha256": "14f78d8074fc21802870334a2f6023507063ee28c1c06cec83a95ace7b9b2fe2"
+    },
+    {
+      "symbol": "GSAP",
+      "source": "assets/vendor/gsap-3.15.0/gsap.min.js",
+      "mime": "application/javascript; charset=utf-8",
+      "routes": [
+        "/assets/vendor/gsap-3.15.0/gsap.min.js"
+      ],
+      "gzip": true,
+      "bytes": 28302,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
     }
   ]
 }

@@ -26,6 +26,8 @@ files=[
     ('Logo','assets/v3.6.0/autobotany.png','image/png',['/assets/v3.6.0/autobotany.png']),
     ('School','assets/v3.1.0/colegio.jpg','image/jpeg',['/assets/v3.1.0/colegio.jpg']),
     ('Archdiocese','assets/v3.1.0/archdiocese.png','image/png',['/assets/v3.1.0/archdiocese.png']),
+    # Third-party: GSAP core (standard no-charge license, https://gsap.com/standard-license).
+    ('GSAP','assets/vendor/gsap-3.15.0/gsap.min.js','application/javascript; charset=utf-8',['/assets/vendor/gsap-3.15.0/gsap.min.js']),
 ]
 declarations=[];entries=[];manifest=[]
 for symbol,filename,mime,routes in files:
