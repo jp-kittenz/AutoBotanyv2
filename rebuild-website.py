@@ -28,6 +28,7 @@ files=[
     ('Archdiocese','assets/v3.1.0/archdiocese.png','image/png',['/assets/v3.1.0/archdiocese.png']),
     # Third-party: GSAP core (standard no-charge license, https://gsap.com/standard-license).
     ('GSAP','assets/vendor/gsap-3.15.0/gsap.min.js','application/javascript; charset=utf-8',['/assets/vendor/gsap-3.15.0/gsap.min.js']),
+    ('EntranceMotionJS','assets/v3.6.0/entrance-motion.js','application/javascript; charset=utf-8',['/assets/v3.6.0/entrance-motion.js']),
 ]
 declarations=[];entries=[];manifest=[]
 for symbol,filename,mime,routes in files:
